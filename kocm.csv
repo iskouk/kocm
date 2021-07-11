@@ -1,0 +1,18 @@
+@id,rdf:type,skos:prefLabel,skos:altLabel,skos:definition,skos:inScheme,skos:broader,skos:topConceptOf,pav:version,dcterms:source
+kocm:scheme,skos:ConceptScheme,Knowledge Organization Capability Model,,Capability model for knowledge organization,,,,0.0.1,
+kocm:001,skos:Concept,Knowledge Organization System Management,Taxonomy Management,"Management of controlled vocabularies, taxonomies, thesauri and ontologies.",kocm:scheme,,kocm:scheme,,
+kocm:002,skos:Concept,Metamodel Management,,,kocm:scheme,kocm:001,,,
+kocm:003,skos:Concept,Import,,,kocm:scheme,kocm:001,,,
+kocm:004,skos:Concept,Publication,,,kocm:scheme,kocm:001,,,
+kocm:005,skos:Concept,Creation,,,kocm:scheme,kocm:001,,,
+kocm:006,skos:Concept,Editing,,,kocm:scheme,kocm:001,,,
+kocm:007,skos:Concept,Validation,,,kocm:scheme,kocm:001,,,
+kocm:008,skos:Concept,Identifier Management,,,kocm:scheme,kocm:001,,,
+kocm:009,skos:Concept,Linking Concepts,,,kocm:scheme,kocm:001,,,
+kocm:010,skos:Concept,Security,,,kocm:scheme,kocm:001,,,
+kocm:011,skos:Concept,Workflow,,,kocm:scheme,kocm:001,,,
+kocm:012,skos:Concept,Reporting,,,kocm:scheme,kocm:001,,,
+kocm:013,skos:Concept,Issue Management,,,kocm:scheme,kocm:001,,,
+kocm:014,skos:Concept,Subject Indexing,,,kocm:scheme,,kocm:scheme,,
+kocm:015,skos:Concept,Document Management,,,kocm:scheme,,kocm:scheme,,https://www.isko.org/cyclo/data
+kocm:016,skos:Concept,Data Management,,,kocm:scheme,,kocm:scheme,,https://www.isko.org/cyclo/data

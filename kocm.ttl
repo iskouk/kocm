@@ -1,0 +1,94 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix kocm: <https://iskouk.org/kocm/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+kocm:002 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Metamodel Management" .
+
+kocm:003 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Import" .
+
+kocm:004 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Publication" .
+
+kocm:005 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Creation" .
+
+kocm:006 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Editing" .
+
+kocm:007 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Validation" .
+
+kocm:008 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Identifier Management" .
+
+kocm:009 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Linking Concepts" .
+
+kocm:010 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Security" .
+
+kocm:011 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Workflow" .
+
+kocm:012 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Reporting" .
+
+kocm:013 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Issue Management" .
+
+kocm:014 a skos:Concept ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Subject Indexing" ;
+    skos:topConceptOf kocm:scheme .
+
+kocm:015 a skos:Concept ;
+    dcterms:source <https://www.isko.org/cyclo/data> ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Document Management" ;
+    skos:topConceptOf kocm:scheme .
+
+kocm:016 a skos:Concept ;
+    dcterms:source <https://www.isko.org/cyclo/data> ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Data Management" ;
+    skos:topConceptOf kocm:scheme .
+
+kocm:001 a skos:Concept ;
+    skos:altLabel "Taxonomy Management" ;
+    skos:definition "Management of controlled vocabularies, taxonomies, thesauri and ontologies." ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Knowledge Organization System Management" ;
+    skos:topConceptOf kocm:scheme .
+
+kocm:scheme a skos:ConceptScheme ;
+    pav:version "0.0.1" ;
+    skos:definition "Capability model for knowledge organization" ;
+    skos:prefLabel "Knowledge Organization Capability Model" .
+
