@@ -41,7 +41,7 @@ kocm:008 a skos:Concept ;
 kocm:009 a skos:Concept ;
     skos:broader kocm:001 ;
     skos:inScheme kocm:scheme ;
-    skos:prefLabel "Linking Concepts" .
+    skos:prefLabel "Linking" .
 
 kocm:010 a skos:Concept ;
     skos:broader kocm:001 ;
@@ -79,6 +79,16 @@ kocm:016 a skos:Concept ;
     skos:inScheme kocm:scheme ;
     skos:prefLabel "Data Management" ;
     skos:topConceptOf kocm:scheme .
+
+kocm:017 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Versioning" .
+
+kocm:018 a skos:Concept ;
+    skos:broader kocm:001 ;
+    skos:inScheme kocm:scheme ;
+    skos:prefLabel "Provenance" .
 
 kocm:001 a skos:Concept ;
     skos:altLabel "Taxonomy Management" ;
